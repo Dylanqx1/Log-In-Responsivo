@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="Log-in.css">
+</head>
+<body>
+
+    <fieldset>
+        <header>
+            <img src="default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg" alt="Avatar">
+            <h1>Iniciar Sesión</h1>
+        </header>
+
+        <form action="/procesar-datos" method="post">
+            <input type="text" name="usuario" placeholder="Usuario" required>
+
+            <!-- Contenedor de contraseña -->
+            <div class="password-container">
+                <input type="password" name="correo" placeholder="Contraseña" required>
+                <span class="eye-icon">👁️</span>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+
+</body>
+</html>
